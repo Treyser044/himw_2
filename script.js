@@ -98,7 +98,8 @@ function buyNow(price, name) {
   }
   let total = price * amount;
   alert(`Siz zakaz qilgan maxsulot: ${name}
-Narxi: ${price} сум
-Soni: ${amount} ta
-Umumiy narxi: ${total} сум`);
+    Narxi: ${price} сум
+    Soni: ${amount} ta
+    Umumiy narxi: ${total} сум`);
+    alert('zakaz qabul qilindi')
 }
